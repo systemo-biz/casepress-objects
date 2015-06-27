@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Objects for CasePress
+Plugin Name: CasePress. - Objects managment
 Plugin URI: https://github.com/systemo-biz/casepress-objects
 Description: Objects managment for CasePress based on WordPress
 Author: CasePress
