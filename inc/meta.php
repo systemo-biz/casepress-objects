@@ -48,12 +48,12 @@ private function __construct() {
     function object_responsible_callback(){
         
         $query = new WP_Query( array(
-                                                        'fields' => 'ids',
-                                                        's' => $_GET['s'],
-                                                        'paged' => $_GET['paged'],
-                                                        'posts_per_page' => 10,
-                                                        'post_type' => array('persons')
-                                                    ));
+                'fields' => 'ids',
+                's' => $_GET['s'],
+                'paged' => $_GET['paged'],
+                'posts_per_page' => 10,
+                'post_type' => array('persons')
+            ));
         
         $elements = array();
         foreach ($query->posts as $post_id){
